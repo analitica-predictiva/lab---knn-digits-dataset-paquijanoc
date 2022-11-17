@@ -57,10 +57,10 @@ def pregunta_02():
     knn = KNeighborsClassifier(n_neighbors=7)
 
     # Entrene el clasificador
-    knn.fit(X,y)
+    knn.fit(X_train,y_train)
 
     # Imprima la precisión (score) del clasificador en el conjunto de datos de prueba
-    print(round(knn.score(X,y), 4))
+    print(round(knn.score(X_test,y_test), 4))
 
 def pregunta_03():
     """
