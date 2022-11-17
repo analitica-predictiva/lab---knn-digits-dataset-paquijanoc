@@ -26,7 +26,7 @@ def pregunta_01():
     print(digits.data.shape)
 
     # Imprima las dimensiones del vector de salida
-    print(digits.target.shape)
+    print(digits.target.size)
 
 
 def pregunta_02():
